@@ -21,7 +21,9 @@ int buff_append(char *buff_dest, va_list arg, int buff_count, char type)
 			return (buff_count);
 
 		case 's':
+      buff_append
 			print_str(buff_dest, arg, buff_count);
+
 			break;
 	}
 	return (0);
