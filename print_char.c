@@ -7,7 +7,7 @@
 *Return: buffer index
 */
 
-int print_char(char *buff_dest, va_list arg int buff_count)
+int print_char(char *buff_dest, va_list arg, int buff_count)
 {
        char c = var_arg(arg, int);
 
