@@ -6,7 +6,7 @@
  * @buff_count: index of dst where the c of %c is
  * Return: New index
  */
-int print_reverse(char *buff_dest, va_list arg, int buff_count)
+int print_rev(char *buff_dest, va_list arg, int buff_count)
 {
 	int i = 0;
 	char *str;

@@ -8,7 +8,7 @@
  * Return: New index
  */
 
-int parse_int(char *buff_dest, va_list arg, int buff_count)
+int print_int(char *buff_dest, va_list arg, int buff_count)
 {
 	int tens = 1;
 	unsigned int tmp;
