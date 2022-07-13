@@ -1,7 +1,7 @@
 #/bin/bash
 
 # Ignore the main.c file
-*main.c
+#main.c
 
 #Ignore the exe
 *.exe
