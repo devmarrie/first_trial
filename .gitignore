@@ -10,3 +10,8 @@
 #Ecmas buffer files
 *~
 *#
+
+#Saved files
+*.swo
+*.swp
+
